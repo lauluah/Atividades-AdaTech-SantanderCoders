@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Ada" style="border-radius: 50%; width: 50px;" src="FotosReadme/Ada.png">
+  <img alt="Ada" style="border-radius: 50%; width: 50px;" src="src/Fotos/Ada.png">
   <h1 style="font-size: 20px;"><b>Atividades 4</b></h1>
 </div>
 
