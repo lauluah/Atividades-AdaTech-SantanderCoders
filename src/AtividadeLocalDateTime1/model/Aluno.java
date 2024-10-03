@@ -1,7 +1,7 @@
 package AtividadeLocalDateTime1.model;
 
 public class Aluno {
-    private String nome;
+    private final String nome;
     private String dataAula = "2023/10/01";
     private long minutosAssistidos;
 
@@ -12,10 +12,7 @@ public class Aluno {
 
     @Override
     public String toString() {
-        return "Aluno{" +
-                "nome='" + nome + '\'' +
-                ", dataAula=" + dataAula +
-                ", horasAssistidas=" + minutosAssistidos;
+        return STR."Aluno{nome='\{nome}', dataAula=\{dataAula}, horasAssistidas=\{minutosAssistidos}";
     }
 
     public String getNome() {
