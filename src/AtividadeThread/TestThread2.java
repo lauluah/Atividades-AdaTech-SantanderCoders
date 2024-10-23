@@ -8,7 +8,7 @@ public class TestThread2 {
                     System.out.println(i);
                 }
             } catch (Exception e) {
-                System.out.println("Thread 1 interrompida");
+                System.out.println("Thread 1 erro");
             }
         });
 

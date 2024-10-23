@@ -14,14 +14,14 @@ public class TestThread {
         try {
             thread1.join();
         } catch (InterruptedException e) {
-            System.out.println("Thread 1 interrompida");
+            System.out.println("Thread 1 erro");
         }
 
         thread2.start();
         try {
             thread2.join();
         } catch (InterruptedException e) {
-            System.out.println("Thread 2 interrompida");
+            System.out.println("Thread 2 erro");
         }
     }
 }
